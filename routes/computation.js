@@ -22,10 +22,10 @@ let sq = Math.sqrt(num);
 
 res.render('computation',{
     title:'computation',
-    values:'Math.acosh() applied to '+num+' is '+cos,
-    value1:'Math.log1p() applied to '+num+' is '+log,
-    value2:'Math.tan() applied to '+num+' is '+tab, 
-    values3:'Math.sqrt() applied to '+num+' is '+sq
+    values:'Math.acosh() applied to '+num+'is '+cos,
+    value1:'Math.log1p() applied to '+num+'is'+log,
+    value2:`Math.tan() applied to `+num+`is`+tab, 
+    values3:'Math.sqrt() applied to '+num+'is'+sq
 });
 });
 
